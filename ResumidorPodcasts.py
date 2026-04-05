@@ -46,7 +46,6 @@ for segmento in resultado['segments']: # -> Vai passar por cada segmento
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from time import sleep
-from dotenv import load_dotenv, find_dotenv
 
 
 
