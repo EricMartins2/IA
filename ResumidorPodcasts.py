@@ -26,7 +26,7 @@ print('Trascrição:', result['segments'])
 
 #Detecção dos falantes
 modelo_diarizacao = DiarizationPipeline( # -> DiarizationPipeline: Detecta quem está falando
-    token='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', device='cpu') # -> O token é a chave para o DiarizationPipeline acessar e escolher o modelo de diarização (separar os falantes)
+    token='SEU_TOKEN_AQUI', device='cpu') # -> O token é a chave para o DiarizationPipeline acessar e escolher o modelo de diarização (separar os falantes)
 
 segmentos_diarizacao = modelo_diarizacao(audio) # -> Especifiquei o audio no qual o modelo de diarização deve trabalhar
 
